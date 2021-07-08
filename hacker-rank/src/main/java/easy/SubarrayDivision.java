@@ -12,7 +12,7 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Result {
+class ResultSubarray {
 
     /*
      * Complete the 'birthday' function below.
@@ -71,7 +71,7 @@ public class SubarrayDivision {
 
         int m = Integer.parseInt(firstMultipleInput[1]);
 
-        int result = Result.birthday(s, d, m);
+        int result = ResultSubarray.birthday(s, d, m);
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
